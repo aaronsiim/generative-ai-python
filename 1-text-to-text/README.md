@@ -154,7 +154,7 @@ block.launch(debug=True)
 
 ---
 
-## Step 5: Deploy the App
+## Step 5: Run the App
 
 <details>
 <summary>Deploying the Gradio App</summary>
@@ -173,9 +173,32 @@ or
   python3 app.py
 ```
 
+</details>
+
+---
+
+## Step 6: Deploy the App
+
+<details>
+<summary>Deploying the Gradio App in HuggingFace</summary>
+
 ### To Deploy The App
 
-- From the root directory of 'app.py', run in terminal"
+- Go to [HuggingFace Website - Spaces](https://huggingface.co/spaces)
+- Create new Space
+- Give it a name + select gradio as SDK + make the app public
+- Scroll down and create the `app.py` file.
+- Copy & paste all the codes from the local machine `app.py` file
+- Commit new file to main (The app won't work right now)
+- Final step: Go to main Space folder: Add `requirements.txt` file and add:
+
+```bash
+  gradio
+  openai
+```
+
+- Save and Run
+- Enjoy
 
 </details>
 
