@@ -3,7 +3,7 @@ import openai
 import gradio as gr
 
 # API as a string (Is to be removed)
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Says it the text is from AI or Human
 start_sequence = "\nAI:"

@@ -1,0 +1,3 @@
+| Project Number |      Project Name       |                                    Description                                     |           Stack            |                            Deployed Link                            |
+| :------------: | :---------------------: | :--------------------------------------------------------------------------------: | :------------------------: | :-----------------------------------------------------------------: |
+|       1        | text-to-text python app | The app generates the text using an input prompt. It uses OpenAI API GPT-3.5 model | Python, Gradio, OpenAI API | https://github.com/aaronsiim/python-gradio/tree/main/1-text-to-text |
